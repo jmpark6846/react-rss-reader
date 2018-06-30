@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   mode:'development',
   entry:{
-    // vendor: [''],
+    vendor: ['semantic-ui-react'],
     app: './src/index.js'
   },
   output:{
